@@ -247,31 +247,3 @@ let mySprite4 = sprites.create(img`
     ..........................................................................................
     `, SpriteKind.MusicNotes)
 mySprite4.setPosition(10, 50)
-pause(2000)
-textSprite.changeScale(-10, ScaleAnchor.Middle)
-mySprite2.changeScale(-10, ScaleAnchor.Middle)
-mySprite4.changeScale(-10, ScaleAnchor.Middle)
-mySprite3.changeScale(-10, ScaleAnchor.Middle)
-tiles.setCurrentTilemap(tilemap`niveau1`)
-mySprite.setImage(img`
-    . . . . . . . . . . . . . . . . 
-    . . . . b b b b . . . . . . . . 
-    . . . b 3 3 3 3 b b b b . . . . 
-    . . b b 1 3 3 3 3 1 1 1 b c c . 
-    . . b 1 1 3 3 3 3 3 1 1 b b b c 
-    . . b 1 1 3 3 3 3 3 b b b b b c 
-    . . c 3 3 3 3 3 3 b b b b b b f 
-    . c b b 3 3 3 3 3 b b b b b b f 
-    c b b b 3 3 3 b b b b b b b b f 
-    c b b b b 1 1 b b b b b b b c . 
-    f b b b b 1 1 b b b b b b c c . 
-    f b b b b 3 3 b b b b c c d f . 
-    f c b b b b b b b c c d d d f . 
-    f f c b b b b c c d d d d c . . 
-    . f f f c c c c d d d d c . . . 
-    . . . . . . b b f c c c . . . . 
-    `)
-mySprite.changeScale(-1.7, ScaleAnchor.Middle)
-info.setScore(0)
-controller.player1.moveSprite(mySprite, 100, 100)
-mySprite.sayText("Vas au restaurant!", 2000, false)
