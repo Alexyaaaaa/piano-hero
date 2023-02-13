@@ -4,7 +4,17 @@
     "dependencies": {
         "device": "*",
         "arcade-background-scroll": "github:microsoft/arcade-background-scroll#6cfbf925b9a4d5ddf3e1078e6cf6ca6a1aebb301",
-        "arcade-text": "github:microsoft/arcade-text#v1.3.0"
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "color-coded-tilemap": "*",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.0.1",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "pxt-raycasting": "github:aqeeaqee/pxt-raycasting#v0.3.15",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "Sprite Grid": "github:microsoft/arcade-grid#v1.3.0",
+        "corgio": "*",
+        "feather": "*"
     },
     "files": [
         "main.blocks",
